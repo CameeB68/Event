@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form action="event.php" method="post">
+
+    <p>
+        First Name:
+        <input type="text" name="first_name">
+    </p>
+
+    <p>
+        Last Name:
+        <input type="text" name="last_name">
+    </p>
+
+    <p>Select the events you plan to attend:</p>
+
+    <p>
+        <input type="checkbox" name="events[]" value="Workshop">
+        Workshop
+    </p>
+
+    <p>
+        <input type="checkbox" name="events[]" value="Seminar">
+        Seminar
+    </p>
+
+    <p>
+        <input type="checkbox" name="events[]" value="Networking Event">
+        Networking Event
+    </p>
+
+    <p>
+        <input type="checkbox" name="events[]" value="Awards Dinner">
+        Awards Dinner
+    </p>
+
+    <p>
+        <input type="submit" value="Submit Registration">
+    </p>
+
+</form>
+
+</body>
+</html>
